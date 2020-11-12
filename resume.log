@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.18)  12 NOV 2020 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.18)  12 NOV 2020 16:52
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -363,30 +363,39 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
 (resume.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
-Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 552A76744C7E34D2C68D7785E3F65749;185.
+
+
+Package rerunfilecheck Warning: File `resume.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `resume.out':
+(rerunfilecheck)             Before: 552A76744C7E34D2C68D7785E3F65749;185
+(rerunfilecheck)             After:  6C06404D0645C4D0CFA2D7CA3C6762D3;142.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
  ) 
 Here is how much of TeX's memory you used:
- 7007 strings out of 481199
- 107079 string characters out of 2905595
+ 7005 strings out of 481199
+ 107057 string characters out of 2905595
  399514 words of memory out of 3000000
- 22488 multiletter control sequences out of 15000+200000
- 541356 words of font info for 53 fonts, out of 3000000 for 9000
+ 22487 multiletter control sequences out of 15000+200000
+ 541021 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,45p,406b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Shawn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1000.pk> <C:\Users\Shawn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm1095.pk><C:/Users/Shawn/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb><C:/Users/Shawn/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Shawn/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Shawn/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Shawn/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Shawn/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 100565 bytes).
+ 43i,11n,45p,406b,447s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{section.4} has been referenced but does not exist
+, replaced by a fixed one
+
+ <C:\Users\Shawn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm10
+95.pk><C:/Users/Shawn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Users/Shawn/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb><C:/Users/Shawn/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Shawn/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Shawn/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Shawn/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on resume.pdf (2 pages, 98727 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
