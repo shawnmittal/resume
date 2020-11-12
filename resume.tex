@@ -1,0 +1,178 @@
+%-------------------------
+% Resume in Latex
+% Original Author : Sourabh Bajaj
+% Modified By: Shawn Mittal
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://shawnmittal.com/}{\Large Shawn Mittal}} & Email : \href{mailto:shawn@shawnmittal.com}{shawn@shawnmittal.com}\\
+  Clearance: TS/SCI & Mobile : (703) 568-0577\\
+  \href{http://shawnmittal.com/}{http://www.shawnmittal.com}\\
+\end{tabular*}
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Booz Allen Hamilton}{McLean, VA}
+      {Data Science Technical Lead}{Jul. 2020 - Present}
+      \resumeItemListStart
+         \resumeItem{Tech Leadership}
+          {Leading a team of 8 software engineers and data scientists at DTRA-OI to produce production ready applications for a user base of approximately 15,000 intelligence analysts. Collaborating with multiple operations and engineering teams to design, scope, and deliver services within distributed systems across 3 different networks at different classifications.}
+        \resumeItem{NLP}
+          {Developing Natural Language Processing applications to facilitate document discovery. Primarily using XLNET (Hugging Face transformer) and Gradient Boosted Trees (SparkML) for multi-class labeling of 10,000 - 50,000 daily documents.}
+        \resumeItem{MLOps}
+          {Developing MLOps pipelines on top of existing DevOps processes and transitioning legacy machine learning code (Java SparkML) to work within new Python based pipelines. Using MLflow for MLOps pipeline development.}
+      \resumeItemListEnd
+      
+      \resumeSubSubheading
+      {Lead Data Scientist}{Jul. 2018 - Jul. 2020}
+      \resumeItemListStart
+         \resumeItem{AWS}
+          {Developed and deployed data science development environments in AWS using Terraform. Wrote core libraries that can be used for data ingest, ETL, and model development. Used AWS Lambda, SQS, DynamoDB, API Gateway, and S3.}
+      	 \resumeItem{Keras}
+          {Developed an undersea acoustics classification application in Python using Keras with Tensorflow back-end for development of acoustic signal processing and classification models. Delivered to the US Navy in a constrained 6 month time frame.}
+         \resumeItem{Consulting}
+          {Data Science consultant for a Navy Logistics IT cloud migration effort. Helped the Navy understand pain points and suggested architecture requirements that addressed client needs. Effort resulted in the successful release and award of an Other Transactional Authority (OTA) contract for development of enterprise cloud infrastructure.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {U.S. Department of the Air Force - HAF/A9}{Washington DC}
+      {Operations Research Analyst (civilian)}{Nov. 2017 - Jul. 2018}
+      \resumeItemListStart
+        \resumeItem{Optimization}
+          {Developed a mutli-objective optimization application in Python that used a genetic optimizer to determine ideal future state force architecture for Intelligence, Search, and Reconnaissance (ISR) assets for given inputs.}
+        \resumeItem{Constellation Architecture}
+          {Evaluated satellite constellation architectures to determine applicability to warfighting needs. Developed a scheduling algorithm in Python for quick heuristic analysis of constellation capabilities.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {U.S. Department of the Navy - NSWCCD}{Bethesda, MD}
+      {Systems Engineer (civilian)}{Jul. 2015 - Nov. 2017}
+      \resumeItemListStart
+        \resumeItem{Submarine Design}
+          {Developed submarine concept design tools in Python and C\# that allowed Naval Architects to quickly iterate on designs. Developed a novel submarine hydrostatic balance algorithm that allowed computational placement of certain submarine components during initial design phase.}
+        \resumeItem{Ship Stability Analysis}
+          {Led the efforts to determine ship stability for new Navy Frigate concept designs to inform requirements for the Navy's FFG(X) program.}
+        \resumeItem{International Exchange}
+          {Supported UK Ministry of Defense Naval Architecture efforts in deployment of common submarine systems across Dreadnaught class submarine. Facilitated the extension of a Memorandum of Understanding (MOU) between the U.K. Ministry of Defense and the U.S. Department of Defense for the exchange of technical information between the Dreadnaught and Columbia programs.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Virginia Polytechnic Institute \& State University (Virginia Tech)}{Blacksburg, VA}
+      {Master of Science in Mechanical Engineering}{Aug. 2013 -- May 2015}
+    \resumeSubheading
+      {Virginia Polytechnic Institute \& State University (Virginia Tech)}{Blacksburg, VA}
+      {Bachelor of Science in Mechanical Engineering}{Aug. 2009 -- May 2013}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{ShawnMittal.com}
+      {Containerized Python application deployed on Azure App Services using CI/CD pipeline.}
+    \resumeSubItem{GDELT Data Aggregator}
+      {Terraform scripts and AWS Lambda functions for spinning up a serverless GDELT ingest pipline.}
+    \resumeSubItem{Galaxy Collisions}
+      {Simulate galaxy collisions with VPython and correct-ish physics.}
+  \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: Python, Java}
+      \hfill
+      \textbf{Technologies}{: AWS (Lambda, DynamoDB, SQS), Terraform, Flask, Keras}
+    }
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
